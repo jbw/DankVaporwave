@@ -1474,7 +1474,7 @@
         <Foreground Type="CT_RAW" Source="DEFA0000" />
       </Color>
       <Color Name="namespace name">
-        <Background Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF090D1A" />
         <Foreground Type="CT_RAW" Source="FFB392F0" />
       </Color>
       <Color Name="label name">
