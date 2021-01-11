@@ -1,7 +1,7 @@
 {
     "$schema": "http://json.schemastore.org/vsix-publish",
     "categories": [
-        "coding"
+        "build", "coding"
     ],
     "identity": {
         "internalName": "DankVaporwave"
