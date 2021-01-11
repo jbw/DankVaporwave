@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json.schemastore.org/vsix-publish",
+    "categories": [
+        "coding"
+    ],
+    "identity": {
+        "internalName": "DankVaporwave"
+    },
+    "overview": "overview.md",
+    "priceCategory": "free",
+    "publisher": "JBW",
+    "private": false,
+    "qna": true,
+    "repo": "https://github.com/jbw/DankVaporwave"
+}
