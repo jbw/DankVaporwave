@@ -1397,7 +1397,6 @@
         <Foreground Type="CT_RAW" Source="FFF0F6FC" />
       </Color>
       <Color Name="string - verbatim">
-        <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFBBDDFF" />
       </Color>
       <Color Name="keyword - control">
@@ -1465,15 +1464,12 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="property name">
-        <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFF0F6FC" />
       </Color>
       <Color Name="event name">
-        <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="DEFA0000" />
       </Color>
       <Color Name="namespace name">
-        <Background Type="CT_RAW" Source="FF090D1A" />
         <Foreground Type="CT_RAW" Source="FFB392F0" />
       </Color>
       <Color Name="label name">
@@ -6017,23 +6013,18 @@
     </Category>
     <Category Name="Text Editor Language Service Items" GUID="{e0187991-b458-4f7e-8ca9-42c9a573b56c}">
       <Color Name="Keyword">
-        <Background Type="CT_RAW" Source="FF0D1117" />
         <Foreground Type="CT_RAW" Source="FFE74A98" />
       </Color>
       <Color Name="Comment">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF7584B3" />
       </Color>
       <Color Name="Identifier">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_AUTOMATIC" Source="00000000" />
       </Color>
       <Color Name="String">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFBBDDFF" />
       </Color>
       <Color Name="Number">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFB5CEA8" />
       </Color>
       <Color Name="XML CData Section">
@@ -6041,7 +6032,6 @@
         <Foreground Type="CT_RAW" Source="FFE9D585" />
       </Color>
       <Color Name="XML Comment">
-        <Background Type="CT_AUTOMATIC" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF7584B3" />
       </Color>
       <Color Name="Memory Changed">
@@ -7258,7 +7248,6 @@
         <Foreground Type="CT_RAW" Source="FFF7A1A1" />
       </Color>
       <Color Name="Plain Text">
-        <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="SelectedText">
