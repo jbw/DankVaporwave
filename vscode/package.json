@@ -1,0 +1,21 @@
+{
+    "name": "dankvaporwave",
+    "displayName": "DankVaporwave",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DankVaporwave",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DankVaporwave-color-theme.json"
+            }
+        ]
+    }
+}
