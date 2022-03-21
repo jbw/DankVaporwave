@@ -23,13 +23,13 @@
 		"sideBar.background": "#0d1117",
 		"sideBar.border": "#32383a",
 		"activityBar.background": "#0d1117",
-		"tab.activeBackground": "#0d1117",
+		"tab.activeForeground": "#b392f0",
+		"tab.activeBorderTop": "#b392f0",
+		"tab.inactiveForeground": "#7c8484",
 		"tab.inactiveBackground": "#0d1117",
 		"titleBar.activeBackground": "#0d1117",
 		"titleBar.inactiveBackground": "#0d1117",
 		"editorGroupHeader.tabsBackground": "#0d1117",
-
-	
 	},
 	"tokenColors": [
 		{
