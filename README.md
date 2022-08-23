@@ -4,14 +4,15 @@
 
 > A vaporwave inspired color theme for Visual Studio 2019
 
-## Versions
+## [VS Code](./vscode/)
 
-- [VS Code](./vscode/)
-- [Visual Studio](./vs/)
+Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.dankvaporwave-vscode) or search 'DankVaporwave' in Extensions.
+
+## [Visual Studio](./vs/)
+
+Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.DankVaporwave) or search 'DankVaporwave' in your IDE.
 
 ## Install
-
-Available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.DankVaporwave).
 
 ## Color Palette
 
