@@ -9,6 +9,8 @@
 
 Search 'DankVaporwave' on Extensions
 
+Also available on the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.dankvaporwave-vscode)
+
 ## Color Palette
 
 ![Icon](./palette.png)
