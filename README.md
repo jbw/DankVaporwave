@@ -1,15 +1,23 @@
-![Icon](./icon.jpg) 
+![Icon](./icon.jpg)
+
 # DankVaporwave theme
+
 > A vaporwave inspired color theme for Visual Studio 2019
 
-![alt text](./example.png "Example")
+## [VS Code](./vscode/)
+
+Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.dankvaporwave-vscode) or search 'DankVaporwave' in Extensions.
+
+## [Visual Studio](./vs/)
+
+Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.DankVaporwave) or search 'DankVaporwave' in your IDE.
 
 ## Install
-Available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.DankVaporwave).
 
 ## Color Palette
 
-![Icon](./docs/imgs/palette.png) 
+![Icon](./docs/imgs/palette.png)
 
 ## License
+
 [MIT License](./LICENSE.txt)

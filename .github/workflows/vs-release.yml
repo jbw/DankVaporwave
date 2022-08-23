@@ -1,4 +1,4 @@
-name: CI
+name: VS-Release
 on:
   push:
     tags:
@@ -21,6 +21,7 @@ jobs:
 
       - name: Build extension
         run: |
+          cd vs/
           msbuild DankVaporwave.csproj /t:Restore /p:Configuration=Release
           msbuild DankVaporwave.csproj /p:Configuration=Release
 
@@ -32,6 +33,7 @@ jobs:
             bin/Release
       - name: VSIX Publisher
         run: |
+          cd vs/
           $ENV:PATH="$ENV:PATH;C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VSSDK\VisualStudioIntegration\Tools\Bin"
           VsixPublisher.exe login   -publisherName JBW -personalAccessToken ${{secrets.PERSONALACCESSCODE}}
           VsixPublisher.exe publish -personalAccessToken ${{secrets.PERSONALACCESSCODE}} -payload bin/Release/DankVaporwave.vsix -publishManifest publishManifest.json
