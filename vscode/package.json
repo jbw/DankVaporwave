@@ -1,21 +1,32 @@
 {
-    "name": "dankvaporwave",
-    "displayName": "DankVaporwave",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "DankVaporwave",
-                "uiTheme": "vs-dark",
-                "path": "./themes/DankVaporwave-color-theme.json"
-            }
-        ]
-    }
+  "name": "dankvaporwave-vscode",
+  "displayName": "DankVaporwave",
+  "description": "",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "publisher": "JBW",
+  "author": "JBW",
+  "repository": "https://github.com/jbw/DankVaporwave",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode",
+    "theme",
+    "dankvaporwave",
+    "dank vaporwave",
+    "dank vaporwave theme",
+    "dank"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DankVaporwave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DankVaporwave-color-theme.json"
+      }
+    ]
+  }
 }
