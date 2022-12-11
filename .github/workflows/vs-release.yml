@@ -1,12 +1,14 @@
 name: VS-Release
 on:
   push:
+    paths:
+      - vs/**
     tags:
-      - "v*"
+      - 'v*'
   workflow_dispatch:
 
 jobs:
-  build:
+  build-vs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,7 +16,7 @@ jobs:
       - name: setup-msbuild
         uses: microsoft/setup-msbuild@v1.0.2
         with:
-          vs-version: "[16.0,17.0)"
+          vs-version: '[16.0,17.0)'
 
       - name: Bump extension version
         run: ./ci/bumpVersion.ps1 "2.1.$Env:GITHUB_RUN_NUMBER"
