@@ -1,15 +1,13 @@
 {
-    "$schema": "http://json.schemastore.org/vsix-publish",
-    "categories": [
-        "build", "coding"
-    ],
-    "identity": {
-        "internalName": "DankVaporwave"
-    },
-    "overview": "overview.md",
-    "priceCategory": "free",
-    "publisher": "JBW",
-    "private": false,
-    "qna": true,
-    "repo": "https://github.com/jbw/DankVaporwave"
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": ["build", "coding"],
+  "identity": {
+    "internalName": "DankVaporwave"
+  },
+  "overview": "overview.md",
+  "priceCategory": "free",
+  "publisher": "JBW",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/jbw/DankVaporwave/tree/main/vs"
 }

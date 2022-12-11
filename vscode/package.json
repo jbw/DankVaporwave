@@ -2,7 +2,7 @@
   "name": "dankvaporwave-vscode",
   "displayName": "Dank Vaporwave",
   "description": "A vaporwave inspired theme for Visual Studio Code",
-  "version": "0.3.0",
+  "version": "0.3.3",
   "engines": {
     "vscode": "^1.63.0"
   },
@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbw/DankVaporwave"
+    "url": "https://github.com/jbw/DankVaporwave/tree/main/vscode"
   },
-  "homepage": "https://github.com/jbw/DankVaporwave",
+  "homepage": "https://github.com/jbw/DankVaporwave/tree/main/vscode",
   "categories": [
     "Themes"
   ],
