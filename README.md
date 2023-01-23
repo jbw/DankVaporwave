@@ -16,8 +16,6 @@ Command + Shift + P to get the command explorer. In there type, “Developer: In
 
 Install from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=JBW.DankVaporwave) or search 'DankVaporwave' in your IDE.
 
-## Install
-
 ## Color Palette
 
 ![Icon](./docs/imgs/palette.png)
