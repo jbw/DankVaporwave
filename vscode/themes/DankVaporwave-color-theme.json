@@ -189,7 +189,7 @@
     },
     {
       "name": "Class fields",
-      "scope": ["variable.object.property.ts", "meta.class.ts"],
+      "scope": ["variable.object.property.ts", "meta.class.ts", "entity.name.type.interface.ts"],
       "settings": {
         "foreground": "#b2deff"
       }
@@ -233,7 +233,7 @@
     },
     {
       "name": "Return Types",
-      "scope": ["support.type.builtin.ts"],
+      "scope": ["support.type.builtin.ts", "meta.type.parameters.ts"],
       "settings": {
         "foreground": "#b2deff"
       }
@@ -282,11 +282,19 @@
     },
     {
       "name": "Entity name class / Type",
-      "scope": ["entity.name.type.ts", "entity.name.type.alias.ts", "entity.name.function.ts"],
+      "scope": ["entity.name.type.alias.ts", "entity.name.function.ts"],
       "settings": {
         "foreground": "#f0f6fc"
       }
     },
+    {
+      "name": "Meta name type",
+      "scope": ["meta.type.annotation.ts", "meta.method.declaration.ts"],
+      "settings": {
+        "foreground": "#B2DEFF"
+      }
+    },
+
     {
       "name": "Variable Parameter",
       "scope": ["variable.parameter.ts"],
@@ -301,7 +309,6 @@
         "foreground": "#b392f0"
       }
     },
-
     {
       "name": "Support Types",
       "scope": ["support.type.builtin.ts"],
