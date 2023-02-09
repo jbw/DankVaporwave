@@ -42,8 +42,23 @@
     "editor.findMatchBackground": "#802a55",
     "editor.findMatchHighlightBackground": "#802a55",
     "editor.findRangeHighlightBackground": "#802a55",
-    "editor.lineHighlightBackground": "#1d20276d"
+    "editor.lineHighlightBackground": "#1d20276d",
+    "editor.selectionBackground": "#7585b31b",
+    "extensionBadge.remoteBackground": "#802a55",
+    "extensionButton.background": "#802a55",
+    "sideBarSectionHeader.foreground": "#f0f6fc",
+    "sideBar.dropBackground": "#b392f0",
+    "panelInput.border": "#b392f0",
+    "button.background": "#e74a98",
+    "editorWidget.resizeBorder": "#b392f0",
+    "keybindingLabel.background": "#e74a98",
+    "foreground": "#f0f6fc",
+    "menu.selectionBackground": "#e74a98",
+    "selection.background": "#e74a98",
+    "dropdown.border": "#b392f0",
+    "focusBorder": "#b392f0"
   },
+
   "tokenColors": [
     {
       "name": "Comment",
@@ -189,7 +204,7 @@
     },
     {
       "name": "Class fields",
-      "scope": ["variable.object.property.ts", "meta.class.ts"],
+      "scope": ["variable.object.property.ts", "meta.class.ts", "entity.name.type.interface.ts"],
       "settings": {
         "foreground": "#b2deff"
       }
@@ -233,7 +248,7 @@
     },
     {
       "name": "Return Types",
-      "scope": ["support.type.builtin.ts"],
+      "scope": ["support.type.builtin.ts", "meta.type.parameters.ts"],
       "settings": {
         "foreground": "#b2deff"
       }
@@ -272,14 +287,85 @@
         "foreground": "#b392f0"
       }
     },
+
     {
-      "name": "Entity name / Imports",
-      "scope": ["entity.name"],
+      "name": "Support Types Primitive",
+      "scope": ["support.type.primitive.ts"],
       "settings": {
-        "foreground": "#bfd5ec"
+        "foreground": "#f0f6fc"
+      }
+    },
+    {
+      "name": "Entity name class / Type",
+      "scope": ["entity.name.type.alias.ts", "entity.name.function.ts"],
+      "settings": {
+        "foreground": "#f0f6fc"
+      }
+    },
+    {
+      "name": "Meta name type",
+      "scope": ["meta.type.annotation.ts", "meta.method.declaration.ts"],
+      "settings": {
+        "foreground": "#B2DEFF"
       }
     },
 
+    {
+      "name": "Variable Parameter",
+      "scope": ["variable.parameter.ts"],
+      "settings": {
+        "foreground": "#f0f6fc"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["entity.name.function.ts", "meta.function-call.ts"],
+      "settings": {
+        "foreground": "#b392f0"
+      }
+    },
+    {
+      "name": "Support Types",
+      "scope": ["support.type.builtin.ts"],
+      "settings": {
+        "foreground": "#e74a98"
+      }
+    },
+    {
+      "name": "Null Types",
+      "scope": ["constant.language.null.ts"],
+      "settings": {
+        "foreground": "#e74a98"
+      }
+    },
+    {
+      "name": "Comparison",
+      "scope": ["keyword.operator.comparison.ts"],
+      "settings": {
+        "foreground": "#B2DEFF"
+      }
+    },
+    {
+      "name": "Entity name class / Type",
+      "scope": ["punctuation.definition.typeparameters.end.ts", "punctuation.definition.typeparameters.begin.ts"],
+      "settings": {
+        "foreground": "#B2DEFF"
+      }
+    },
+    {
+      "name": "Function Punctuation",
+      "scope": ["storage.type.function.arrow.ts", "punctuation.definition.block.ts"],
+      "settings": {
+        "foreground": "#d3a4e3"
+      }
+    },
+    {
+      "name": "This Keyword",
+      "scope": ["variable.language.this.ts"],
+      "settings": {
+        "foreground": "#d3a4e3"
+      }
+    },
     {
       "name": "CSS Class and Support",
       "scope": [

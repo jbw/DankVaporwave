@@ -1,9 +1,10 @@
-![Icon](./icon.jpg)
+![](./icon.jpg)
 
 # DankVaporwave theme
 
 > A vaporwave inspired color theme for Visual Studio Code
-> ![alt text](./example.png "Example")
+
+![](./example.png 'Example')
 
 ## Install
 
@@ -13,4 +14,11 @@ Also available on the [Marketplace](https://marketplace.visualstudio.com/items?i
 
 ## Color Palette
 
-![Icon](./palette.png)
+![](./palette.jpg)
+
+# Build
+
+```bash
+npm install
+npx vsce package
+```
