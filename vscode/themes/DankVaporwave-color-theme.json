@@ -43,6 +43,7 @@
     "editor.findMatchHighlightBackground": "#802a55",
     "editor.findRangeHighlightBackground": "#802a55",
     "editor.lineHighlightBackground": "#1d20276d",
+    "editor.selectionBackground": "#7585b31b",
     "extensionBadge.remoteBackground": "#802a55",
     "extensionButton.background": "#802a55",
     "sideBarSectionHeader.foreground": "#f0f6fc",
