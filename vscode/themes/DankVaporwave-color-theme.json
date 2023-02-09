@@ -42,8 +42,22 @@
     "editor.findMatchBackground": "#802a55",
     "editor.findMatchHighlightBackground": "#802a55",
     "editor.findRangeHighlightBackground": "#802a55",
-    "editor.lineHighlightBackground": "#1d20276d"
+    "editor.lineHighlightBackground": "#1d20276d",
+    "extensionBadge.remoteBackground": "#802a55",
+    "extensionButton.background": "#802a55",
+    "sideBarSectionHeader.foreground": "#f0f6fc",
+    "sideBar.dropBackground": "#b392f0",
+    "panelInput.border": "#b392f0",
+    "button.background": "#e74a98",
+    "editorWidget.resizeBorder": "#b392f0",
+    "keybindingLabel.background": "#e74a98",
+    "foreground": "#f0f6fc",
+    "menu.selectionBackground": "#e74a98",
+    "selection.background": "#e74a98",
+    "dropdown.border": "#b392f0",
+    "focusBorder": "#b392f0"
   },
+
   "tokenColors": [
     {
       "name": "Comment",
