@@ -21,4 +21,6 @@ Also available on the [Marketplace](https://marketplace.visualstudio.com/items?i
 ```bash
 npm install
 npx vsce package
+npx vsce login JBW
+npx vsce publish
 ```
